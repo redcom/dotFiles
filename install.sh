@@ -34,8 +34,8 @@ git clone https://github.com/redcom/dot_vim_clone.git ~/.vim
 cd ~/.vim/bundle/YouCompleteMe && ./install.py
 cd ~/.vim/
 git clone https://github.com/gmarik/vundle.git bundle/vundle
-timeout 300s vim +PluginInstall +qall
-timeout 900s vim +PluginInstall +qall
+#timeout 300s vim +PluginInstall +qall
+#timeout 900s vim +PluginInstall +qall
 
 echo "install .editorconfig"
 curl -o- https://raw.githubusercontent.com/redcom/dotFiles/master/.editorconfig > /.editorconfig
